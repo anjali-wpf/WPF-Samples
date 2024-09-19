@@ -239,6 +239,24 @@
         ]
     },
     {
+        "UniqueId": "Styles",
+        "Title": "Styles",
+        "PageName": "StylesPage",
+        "IconGlyph": "\uE8F2",
+        "Description": "Different Styling options for your app",
+        "ImagePath": "Assets/ControlImages/ColorPaletteResources.png",
+        "IsGroup": true,
+        "Items": [
+            {
+                "UniqueId": "Compact Sizing",
+                "Title": "Compact Sizing",
+                "PageName": "CompactPage",
+                "ImagePath": "Assets/ControlImages/CompactSizing.png",
+                "Description": "Allows you to make your app more compact."
+            }
+        ]    
+    },
+    {
         "UniqueId": "Text",
         "Title": "Text",
         "PageName": "TextPage",

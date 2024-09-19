@@ -107,6 +107,11 @@ public partial class App : Application
             services.AddSingleton<IconsPage>();
             services.AddSingleton<IconsPageViewModel>();
 
+            services.AddTransient<StylesPage>();
+            services.AddTransient<StylesPageViewModel>();
+            services.AddTransient<CompactPage>();
+            services.AddTransient<CompactPageViewModel>();
+            
             services.AddSingleton<SettingsPage>();
             services.AddSingleton<SettingsPageViewModel>();
 

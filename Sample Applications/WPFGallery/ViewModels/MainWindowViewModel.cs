@@ -18,6 +18,7 @@ public partial class MainWindowViewModel : ObservableObject
 
     [ObservableProperty]
     private ICollection<ControlInfoDataItem> _controls;
+    
     [ObservableProperty]
     private ControlInfoDataItem? _selectedControl;
     private readonly INavigationService _navigationService;
